@@ -80,11 +80,22 @@ Learning notes
     ```
     
     
-    * Array：
+    - Array：
     
-        - 累加 `reduce(callback[accumlator, currentValue, currentIndex, array], initialValue)` 
-        - forEach 回傳undefined  
-        - map 回傳新矩陣  
+    ```js
+    var arr = [1, 2, 3];
+    # 累加
+    var total = arr.reduce((accumlator, currentValue) => (accumlator + currentValue), initialValue);
+    console.log(total); //6
+    arr.forEach(element => console.log(element));
+    //1
+    //2
+    //3
+    var newArr = arr.map(element => element * 2);
+    console.log(newArr); //[2, 4, 6]
+    # forEach 回傳 undefined
+    # map 回傳新矩陣
+    ```
          
 * ### HTML：
     - Data attribute
