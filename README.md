@@ -79,9 +79,12 @@ Learning notes
     n; // { x: 1, y: 2, a: 3, b: 4 }
     ```
     
-    - Array：
-        - `reduce(callback[accumlator, currentValue, currentIndex, array], initialValue)`
+    - Array：
     
+        - 累加 `reduce(callback[accumlator, currentValue, currentIndex, array], initialValue)`
+        - forEach 回傳undefined
+        - map 回傳新矩陣
+        
 * ### HTML：
     - Data attribute
     
