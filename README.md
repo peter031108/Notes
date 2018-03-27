@@ -111,8 +111,18 @@ Learning notes
     console.log(wow.dataset.magic); // XD
     ```
     
-* ### 百題斬：  
-    - console.log 的值為？  
+* ### Git：  
+    
+    - 與 remote Repo 使用 SSH 連線  
+    
+    ```sh
+    # generate public ssh-key of PC
+    $ ssh-keygen
+    ```
+        將產生的 id_rsa.pub 裡的金鑰貼至 project -> setting -> SSH keys。  
+     
+* ### 百題斬：   
+    - console.log 的值為？  
     
         `var num = '9' * '9'; //81`
     - 如何用 JS 實作「回上頁」功能
